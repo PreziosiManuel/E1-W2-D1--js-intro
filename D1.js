@@ -45,7 +45,7 @@ let x = 12;
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 myName = "Preziosi";
-console.log("Modifica prima variabile con il cognome: ", myName);
+console.log("Modifica della prima variabile con il cognome: ", myName);
 
 // const myName1 = "Manuel";
 // console.log(myName1);
@@ -55,7 +55,7 @@ console.log("Modifica prima variabile con il cognome: ", myName);
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
-console.log("20 - varibile x(12): ", 20 - x);
+console.log("4 - varibile x(12): ", 4 - x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -69,4 +69,6 @@ console.log("Comparazione tra john e John, con la funzione(===): ", name1 === na
 
 let name12 = "john";
 let name22 = "John";
-console.log(!(name12 === name22));
+console.log("Comparazione tra john e John, aggiungendo la funzione (!)(===): ", !(name12 === name22));
+
+// ESERCIZIO EXTRA RICETTA
